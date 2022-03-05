@@ -1,4 +1,6 @@
 import axios from "axios";
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 const Home = {
    async render() {
       const { data } = await axios.get("http://localhost:3001/categories");
@@ -28,6 +30,12 @@ const Home = {
                `).join("")}
          </div>
       `
+   },
+   afterRender(){
+      const user =JSON.parse(localStorage.getItem('user')) ;
+      if(user){
+         toastr.success(`WELCOME BACK ${user.user_name}`)
+      }
    }
 }
 export default Home
