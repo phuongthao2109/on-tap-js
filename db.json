@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "createdAt": "2022-03-02T00:51:19.890Z",
-      "name": "Practical Concrete Bacon",
-      "img": "http://placeimg.com/640/480/sports",
-      "desc": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "price": "881.00",
-      "id": "3",
-      "categoryId": "3"
-    },
-    {
       "createdAt": "2022-03-02T09:18:23.986Z",
       "name": "Ergonomic Rubber Chair",
       "img": "http://placeimg.com/640/480/sports",
@@ -17,15 +8,6 @@
       "price": "404.00",
       "id": "4",
       "categoryId": "4"
-    },
-    {
-      "createdAt": "2022-03-01T16:36:41.176Z",
-      "name": "Licensed Frozen Salad",
-      "img": "http://placeimg.com/640/480/sports",
-      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "price": "268.00",
-      "id": "5",
-      "categoryId": "1"
     },
     {
       "createdAt": "2022-03-02T03:18:53.907Z",
